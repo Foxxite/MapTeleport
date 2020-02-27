@@ -22,14 +22,6 @@
             <version>1.14.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <dependency>
-            <groupId>net.minecraft</groupId>
-            <artifactId>server</artifactId>
-            <version>1.0.0</version>
-            <scope>system</scope>
-            <systemPath>F:/ArticCraft/Server/cache/patched_1.14.4.jar</systemPath>
-        </dependency>
-
     </dependencies>
 
     <properties>

@@ -1,0 +1,21 @@
+name: MapTeleport
+version: "1.1.0"
+api-version: "1.14"
+author: Foxxite
+main: com.foxxite.mapteleport.MapTeleport
+description: Teleport with maps
+
+permissions:
+  mapteleport.use:
+    description: Allows teleporting with maps via all methods.
+    default: false
+    children:
+      mapteleport.use.campfire:
+        description: Allows teleporting with maps via campfires.
+        default: true
+      mapteleport.use.item:
+        description: Allows teleporting with maps on their own.
+        default: false
+      mapteleport.use.frame:
+        description: Allows teleporting with maps when they're in item frames.
+        default: false
